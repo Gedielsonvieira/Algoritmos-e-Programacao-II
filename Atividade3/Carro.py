@@ -6,7 +6,9 @@ class Carro(Automovel):
         self.qtdPortas = int(qtdPortas)
     
     def imprimirInformacoes(self):
-        print(f''' --- CARRO ---
+        print(f''' 
+        
+    --- CARRO ---
     Marca: {self.marca} 
     Quantidade de Rodas: {self.qtdRodas} 
     Modelo: {self.modelo} 

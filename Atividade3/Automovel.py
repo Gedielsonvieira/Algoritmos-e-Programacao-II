@@ -6,7 +6,9 @@ class Automovel(Veiculo):
         self.potenciaDoMotor = float(potenciaDoMotor)
 
     def imprimirInformacoes(self):
-        print(f''' --- AUTOMÓVEL ---
+        print(f''' 
+    
+    --- AUTOMÓVEL ---
     Marca: {self.marca} 
     Quantidade de Rodas: {self.qtdRodas} 
     Modelo: {self.modelo} 

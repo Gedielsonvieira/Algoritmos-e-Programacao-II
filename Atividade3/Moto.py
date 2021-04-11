@@ -6,7 +6,9 @@ class Moto(Automovel):
         self.partidaEletrica = bool(partidaEletrica)
     
     def imprimirInformacoes(self):
-        print(f''' --- MOTO ---
+        print(f''' 
+    
+    --- MOTO ---
     Marca: {self.marca} 
     Quantidade de Rodas: {self.qtdRodas} 
     Modelo: {self.modelo} 

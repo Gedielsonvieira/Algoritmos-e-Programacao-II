@@ -7,7 +7,9 @@ class Bicicleta(Veiculo):
         self.bagageiro = bool(bagageiro)
     
     def imprimirInformacoes(self):
-        print(f'''--- BICICLETA ---
+        print(f'''
+    
+    --- BICICLETA ---
     Marca: {self.marca} 
     Quantidade de Rodas: {self.qtdRodas} 
     Modelo: {self.modelo} 

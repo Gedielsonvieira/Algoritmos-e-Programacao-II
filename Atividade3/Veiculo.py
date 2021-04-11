@@ -15,7 +15,8 @@ class Veiculo():
         self.velocidade = velocidade
     
     def imprimirInformacoes(self):
-        print(f'''--- VEÍCULO ---
+        print(f'''
+    --- VEÍCULO ---
     Marca: {self.marca} 
     Quantidade de Rodas: {self.qtdRodas} 
     Modelo: {self.modelo} 
