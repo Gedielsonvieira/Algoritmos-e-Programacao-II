@@ -10,8 +10,3 @@ class Pessoa:
 
     def __imprimeTelefone(self):#Método Private
         print(f'Telefone: {self.__telefone}')
-
-    
-#self é sempre o objeto que estiver utilizando o método
-#set é para modificar o valor de um atributo
-#get é para pegar alguma informação
