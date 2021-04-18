@@ -1,0 +1,1 @@
+Como fazer um Polimorfismo de sobreescrita (sobrescrevendo o método imprimirinfomacoes em Veiculo) sendo que marca, modelo, qtdRodas, velocidade estão no diagrama de classe com os modificadores de acesso em private?
