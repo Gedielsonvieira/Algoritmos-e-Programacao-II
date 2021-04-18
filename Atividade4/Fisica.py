@@ -15,8 +15,3 @@ class Fisica(Pessoa):
     def __calculaIMC(self):
         calculoIMC = self.peso / (self.altura**2)
         print('IMC: {:.1f}'.format(calculoIMC))
-
-'''        
-p = Fisica(3, 'gedi', 'avenida', 9999999, 934163410, 20, 64, 1.70 )
-p._Fisica__calculaIMC()
-'''
